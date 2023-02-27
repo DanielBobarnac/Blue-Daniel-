@@ -1,6 +1,80 @@
-/*Color: #1566C0
+.ondah{background-image:url(./media/header.jpg);
+    background-size: cover;
+height: 80vh;}
+
+
+.bordog{height: 3px;
+background-color: rgb(211, 175, 15) ;}
+
+.scoglibg{
+    background-image: url(./media/1.png);
+background-size: cover;}
+
+.carte{height: 400px;
+width: 300px;}
+
+.cascatab{background: url(./media/2.png);}
+
+.schiumab{background-image: url(./media/3.png);}
+
+.limpidab{background-image: url(./media/4.png);}
+
+.blanco{color: white;}
+
+.celestino{color:#1566C0 ;}
+
+
+.ondefl{
+    background-image: url(./media/footer.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+/* foto scritta foto */
+
+    .bordoimm{border: 3px solid #1566C0;}
+/* timeline */
+
+.bordl{border-left: 2px solid #1566C0;
+    }
+
+.bordr{border-right: 2px solid #1566C0;
+    }
+
+.pallal{position: relative;}
+
+.pallal::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #1566C0 ;
+    position:absolute;
+    left:-12px
+}
+
+.pallar{position: relative;}
+
+.pallar::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #1566C0 ;
+    position:absolute;
+    right:-12px
+}
+
+.custbt{background-color: #1566C0;
+color: white;
+border: none;
+width: 120px;
+margin-top: 5px;}
+
+
+
+/*/
 
 Font:  Righteous, Roboto */
-
-.ondah{background-image:url(./media/header.jpg);
-height: 100px;}
