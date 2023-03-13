@@ -1,38 +1,118 @@
-.ondah{background-image:url(./media/header.jpg);
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    
+    font-family: 'Righteous', cursive;
+}
+
+.btngiall{
+    width: 120px;
+    height: 40px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+/* onde */
+
+.ondah{background-image:linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.884) 95%, rgba(0,0,0,1) 100%), url(./media/header.jpg);
     background-size: cover;
 height: 80vh;}
+
+.divcust{
+    height: 55vh;
+}
+
+.onda1{z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0px;}
+
+.onda2{z-index: 2;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;}
 
 
 .bordog{height: 3px;
 background-color: rgb(211, 175, 15) ;}
 
 .scoglibg{
-    background-image: url(./media/1.png);
+    background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/1.png);
 background-size: cover;}
 
-.carte{height: 400px;
-width: 300px;}
+.carte{height: 500px;
+width: 400px;}
 
-.cascatab{background: url(./media/2.png);}
+.cascatab{background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/2.png);}
 
-.schiumab{background-image: url(./media/3.png);}
+.schiumab{background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/3.png);}
 
-.limpidab{background-image: url(./media/4.png);}
+.limpidab{background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/4.png);}
 
 .blanco{color: white;}
 
 .celestino{color:#1566C0 ;}
 
+/* bordo icone */
+
+.iconbor{
+    border: 2px solid rgb(230, 223, 223);
+    border-radius: 20px;
+}
+
+.iconboric{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(230, 223, 223);
+    border-radius: 10px;
+}
+
+.custom-margin{
+    margin-top: 150px;
+}
+
+/* tasselli */
+
+.tass1{
+    height: 150px;
+    width: 300px;
+}
+
+.tass2{
+    height: 100px;
+    width: 300px;
+}
+
+.tass3{
+    height: 200px;
+    width: 220px;
+}
+
+.tass4{
+    height: 160px;
+    width: 200px;
+}
+
+.tass5{
+    height: 120px;
+    width: 200px;
+}
+
 
 .ondefl{
-    background-image: url(./media/footer.jpg);
+    background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.40) 50%, rgba(255,255,255,1) 100%),linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.54) 50%, rgba(0,0,0,1) 100%), url(./media/footer.jpg);
     background-size: cover;
     height: 70vh;
 }
 
 /* foto scritta foto */
 
-    .bordoimm{border: 3px solid #1566C0;}
+.bordoimm{border: 3px solid #1566C0;}
 /* timeline */
 
 .bordl{border-left: 2px solid #1566C0;
@@ -74,7 +154,3 @@ width: 120px;
 margin-top: 5px;}
 
 
-
-/*/
-
-Font:  Righteous, Roboto */
